@@ -13,7 +13,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
-/* banner */
+.skip-area {
+  color: #000;
+  margin: auto;
+  max-width: 95%;
+  text-align: center;
+  width: 700px;
+}
+.banner-title {
+  color: #2e3b4e;
+}
+.skip-text {
+  color: #2c4bff;
+}
 @media screen and (max-width: 1024px) {
   .banner {
     flex-wrap: wrap;
