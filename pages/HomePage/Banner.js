@@ -15,13 +15,10 @@ const Banner = () => {
   console.log(loading, show);
   return (
     <div>
-      <section className="container mx-auto py-14 px-6 ">
+      <section className="container mx-auto py-14 px-6 pb-20">
         <div
-          className="  grid
-        
-          lg:grid-cols-2
-          gap-7
-          spac-y-4"
+          style={{ alignItems: "center" }}
+          className=" grid lg:grid-cols-2 gap-7 spac-y-4"
         >
           <div className="pr-6">
             <h1 className="banner-title font-bold text-5xl">
@@ -85,7 +82,7 @@ const Banner = () => {
           <div className="banner-img">
             <img
               className="w-3/4"
-              src="https://i.ibb.co/2yPRFcg/engin-akyurt-g-m8-EDc4-X6-Q-unsplash-1.png"
+              src="https://i.ibb.co/bFzVsym/6f5bbf45-ed54-4174-94eb-c22f42ab269b.jpg"
               alt=""
             />
           </div>
