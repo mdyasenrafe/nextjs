@@ -25,7 +25,7 @@ const NavBar = () => {
         </ul>
         <ul>
           <li>
-            <button class="bg-[#2C4BFF] p-3 rounded-lg font-normal text-white  w-[150px]">
+            <button className="bg-[#2C4BFF] p-3 rounded-lg font-normal text-white  w-[150px]">
               Get Early Access
             </button>
           </li>
