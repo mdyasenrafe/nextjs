@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
+import ContactSection from "./ContactSection";
 import CruisSection from "./CruisSection";
 import SkipSection from "./SkipSection";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner />
       <SkipSection />
       <CruisSection />
+      <ContactSection />
     </div>
   );
 };

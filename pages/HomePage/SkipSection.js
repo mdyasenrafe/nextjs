@@ -23,7 +23,7 @@ const SkipSection = () => {
         />
       </div>
 
-      <div className="mt-12 text-center">
+      <div className="mt-16 text-center">
         <h1 className="font-bold text-5xl md:text-6xl">
           <span className="skip-text">Skip</span> The Hassle
         </h1>
