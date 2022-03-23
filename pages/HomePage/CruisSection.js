@@ -2,7 +2,7 @@ import React from "react";
 
 const CruisSection = () => {
   return (
-    <section className="py-14">
+    <section className="py-14 container mx-auto" id="cruise-through-backend">
       <div className="mt-12 text-center">
         <h1 className="font-bold text-5xl md:text-6xl">
           <span className="skip-text">Cruise </span> Through Backend
@@ -14,7 +14,7 @@ const CruisSection = () => {
           <div>
             <h1 className="text-8xl text-gray-300 font-bold">#1</h1>
             <h1 className="font-semibold text-3xl relative">
-              Configure & Connect.
+              Configure and Connect.
             </h1>
             <p className="my-5 text-gray-500">
               Get all of your data sources connected into a content mesh, in the
